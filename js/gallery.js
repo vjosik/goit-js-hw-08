@@ -64,7 +64,7 @@ const images = [
   },
 ];
 
-const gallery = document.querySelector(".gallery-list");
+const gallery = document.querySelector(".gallery");
 
 const markup = images
   .map(
