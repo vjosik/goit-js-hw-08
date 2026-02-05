@@ -66,6 +66,8 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 
+let instance = null;
+
 const markup = images
   .map(
     ({ preview, original, description }) => `
